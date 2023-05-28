@@ -1,0 +1,540 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+#contenedor { 
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    header {
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fcf9fc), to(#7b7272)); ;
+        height: 140px;
+        border-radius: 10px;}
+    #logo {
+        background-image: url(logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        }
+    #logo {
+        width: 120px;
+        height: 100px;
+        float:left;
+        margin: 10px;
+        border-radius: 0px 30px;}
+        #logo:hover{
+            box-shadow: inset 60px 1px #edeced;
+            transition: 0.6s;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0s;   
+        }    
+    #huellas {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 25px;
+        font-family: cursive;
+        
+    }
+#botonera {
+    margin: 5px;
+    width: 530px;
+    height: 60px;
+    float: right;
+    margin-top: 20px;
+}
+#botonera ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+} 
+#botonera ul li {
+    display: inline;
+}
+#botonera ul li a {
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #8d868d;
+    font-size: 20px;
+    transition: all 300ms;
+} 
+#botonera ul li a:hover {
+    background-color: #c6c6c4;
+    transform: scale(1.15);
+    color: #f7f7f2;
+}
+ 
+#nosotros {
+        height: 620px;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b86d82), to(#f9f4f5)); ;
+        padding-top: 30px;
+        box-sizing: border-box;
+        border-radius: 15px;
+    }   
+    h1 {
+        font-family: roboto;
+        font-size: 40px;
+        text-align: center;
+        line-height: normal;
+        color: #ddd8dd;
+        text-shadow:10px 10px 10px rgba(252, 250, 250, 0.5);
+        ;
+        
+    }
+    #caja1{
+        width: 500px;
+        float: left;
+        margin: 20px;
+        object-position: right;
+        
+    }
+    #caja2 {
+        width: 380px;
+        height: 500px;
+        float: right;
+        margin: 20px;
+       border-radius: 5px;
+    }
+    #caja_2 {
+        font-size: 23px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        column-width: 200px;
+    }
+
+
+#servicios {
+        height: 700px;
+        background-color: rgb(244, 242, 239);
+        padding-top: 10px;
+    }
+    #caja3, #caja4, #caja5 {
+        width: 300px;
+        height: 450px;
+        float: left;
+        margin: 10px;
+        border-radius: 5px;
+        transition: all 300ms;
+        }
+    #caja3:hover{
+        transform: scale(1.05);
+    }    
+    #caja3 {
+        background-color: rgb(164, 225, 238);
+    }
+    
+    #caja4 {
+        background-image:url(imagenes/pelucanina2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        }
+    #caja5 {
+        background-image:url(imagenes/pelucanina1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; }
+    #caja4:hover{
+            transform: scale(1.05); } 
+    #caja5:hover{
+                transform: scale(1.05); }            
+    #caja_6 {
+        width: 100%;
+        height: 270px;
+        clear: left;
+        text-align: justify;
+        padding-top: 20px;
+        background-image:url(imagenes/pelucanina4.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat; }
+
+    #parrafo_cajas {
+        font-size: 25px;
+        color:#b8b8b1;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #tercer_titulo {
+        font-size: 15px;}   
+    #parrafo_6 {
+        padding-top: 15px;
+    }   
+       
+    #productos {
+        height: 1400px;
+        background-color: cornsilk;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #h3_productos{
+        text-align: center;
+        color: rgb(157, 155, 155);
+    }
+    #caja6, #caja8, #caja10 {
+        width: 350px;
+        height: 400px;
+        float: left;
+        margin: 20px 0;
+        margin-left: 40px;
+        border-radius: 5px;
+        transition: all 300ms;
+}
+    #caja7, #caja9, #caja11 {
+        width: 350px;
+        height: 400px;
+        float: right;
+        margin: 20px 0;
+        margin-right: 40px;
+        border-radius: 5px;
+        transition: all 300ms;
+    }
+#caja6:hover{
+    transform: scale(1.05); 
+}
+#caja7:hover{
+    transform: scale(1.05); 
+}
+#caja8:hover{
+    transform: scale(1.05); 
+} 
+#caja9:hover{
+    transform: scale(1.05); 
+} 
+#caja10:hover{
+    transform: scale(1.05); 
+} 
+#caja11:hover{
+    transform: scale(1.05);  
+
+}
+    
+    
+      /* formulario*/
+
+#id_formulario{
+    text-align: center;
+    color: grey;
+}
+.card{
+    margin-left: 15px;
+   
+   }
+.card_1, .card_2, .card_3, .card_4, .card_5, .card_6{ 
+    margin-left: 20px;
+   
+   }
+input{
+    margin-top: 10px;
+}
+textarea{
+    margin-top: 10px;
+}
+select{
+    margin-top: 10px;
+}
+#col1{
+   background-color: #e1e0e0;
+   padding-top: 10px;
+  }
+.card{
+    margin-left: 15px;
+}
+.card-body{
+    background-color: #e1e0e0; 
+}
+.card-body p{
+    text-align: justify;
+}
+#col2 {
+   background-color: #e1e0e0;
+}
+#col3{
+   padding-left: 0px;
+   padding-right: 0px;
+
+   }
+#col4{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#h5_carrucel{
+    color: aliceblue;
+}
+#carrucel_8{
+    color: #f9f4f5;
+}
+#icono_ubicacion{
+    text-align: center;
+}
+#ubicacion{
+    background-color: #d7d6d8;
+    height: 80px;
+} 
+#h3_ubicacion{
+    text-align: center;
+    padding-top: 20px;
+}    
+footer {
+        background-color: rgb(215, 218, 243);
+        height: 200px;
+        padding-top: 20px;
+    }
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 15%;
+   }
+    #boton_arriba{
+        font-size: 35px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    #twitter {
+        width: 40px;
+        height: 40px;
+    }
+    #gmail {
+        width: 40px;
+        height: 40px;
+    }
+    #whatssap {
+        width: 40px;
+        height: 40px;
+    } 
+    #messenger {
+        width: 40px;
+        height: 40px;
+    }   
+    #contactos {
+        width: 350px;
+        height: 100px;
+        box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+        float: left;
+        margin: 10px;
+        border-radius: 5px;
+        }
+        
+    #contactos li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+}
+    #contactos li a {
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 20px;
+        }
+    #legales {
+        width: 350px;
+        height: 100px;
+        box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+        float: right;
+        margin: 10px;
+        border-radius: 5px;
+        }
+    #legales {
+        list-style-type: none;
+        display: inline;
+        font-size: 15px;
+           }
+    #legales li {
+        list-style-type: none;
+        display: inline;
+        font-size: 20px;
+         }
+    #legales li a {
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+       }
+   
+     /*@ media*/  
+    @media screen and (min-width:600px) and (max-width:1023px){
+        #contenedor {
+           width: 580px;
+             }
+            h1 {
+                 font-size: 30px;}
+            #botonera {
+                width: auto;
+                margin-right: 10px;  }
+            #botonera ul li a {
+                float: none;
+                width: auto;
+                padding: 10px 5px;
+                font-size: 15px; } 
+                #botonera ul li a:hover{
+                    transform: scale(1.06) ;
+                    }
+            #nosotros{
+                height: 1000px;
+               
+            }
+            #caja1{
+                width: 350px;
+                height: 350px;
+             } 
+            #caja2{
+                width: 150px;
+                height: 350px;
+            } 
+            #carouselExampleIndicators{
+                height: 350px;
+            } 
+            #carrusel1, #carrusel2, #carrusel3{
+                height: 350px;
+            }      
+            #caja_2 {
+                font-size: 12px;
+                text-align:center;}
+            #caja3, #caja4, #caja5, #caja_6 {
+                width: 270px;
+                height: 270px;
+               }
+            #parrafo_6 {
+                font-size: 12px;
+                color: #735a76;
+                padding-top: 0px;
+               }
+            #tercer_titulo {
+                font-size: 15px;
+            }       
+            #caja_6 {
+                clear: none;
+                float: left;
+                padding-top: 0px;
+                margin-top: 5px;
+                } 
+            p {
+                font-size: 14px;
+                text-align: justify;
+            }
+            #nosotros {
+                width: 100%;
+                height: 400px; ;
+                }
+            #servicios{
+                width: 100%;
+                height: 590px; }
+            #productos {
+                width: 100%;
+                height:920px;
+                }
+            #caja6, #caja7, #caja8, #caja9, #caja10, #caja11{
+                width: 230px;
+                height: 230px;} 
+            footer {
+                width: 580px;
+                height: 200px;
+                }
+            h2 {
+                font-size: 18px;
+            }
+            #contactos, #legales {
+                width: 200px;} 
+            #legales ul li a {
+                    font-size: 12px;
+                    }          
+        }
+    @media screen and (max-width:599px){
+        #contenedor {
+                width: 80%;}
+        header {
+                width: auto;
+           }
+            #logo {
+                width: 20%;
+                height: 40%;}
+            #huellas {
+                font-size: 10px;
+        }
+            #botonera {
+                width: auto;
+                margin-top: 0px;
+               }
+            #botonera ul li a {
+                float: none;
+                width: auto;
+                font-size: 12px;
+                margin: 0px}
+            
+        #botonera ul li a:hover{
+        transform: scale(1.06);}
+        h1 {
+                font-size: 20px;
+        }
+        #nosotros{
+            height: auto;
+        }
+        #servicios, #productos {
+                width: auto;
+                height: auto; }
+            #caja1, #caja2 {
+                float: none;
+                width: auto;
+               
+            }
+            #caja2 {
+                margin: 20px 10px 0px 20px;
+                height: 250px;
+            }
+            
+            #caja_2 {
+                font-size: 13px;
+                }
+            
+            #caja3, #caja4, #caja5, #caja_6 {
+                float: none;
+                width: auto;
+                height: 350px;
+                background-size: cover;
+                }
+            #caja_6 {
+                clear: none;
+                margin-left: 5px;
+                margin-right: 5px;
+            } 
+            #parrafo_6 {
+                font-size: 12px;
+                color: #735a76;
+
+            }   
+            #caja6, #caja7, #caja8, #caja9, #caja10, #caja11{
+                float: none;
+                width: auto;
+                margin-left: 0px;
+                margin-right: 0px;     
+                }
+            footer {
+                width: auto;
+                height: auto;
+                }
+            #contactos, #legales {
+                width: auto;
+                float: none;}
+            h2 {
+                font-size: 18px;
+                }
+            #twitter, #gmail, #whatssap, #messenger {
+                width: 100%;
+                height: 100%;
+                }
+            #pie {
+                font-size: 16px; }
+            #legales ul li a {
+            font-size: 16px;}
+        }
+        @media screen and (max-width:427px){
+            #botonera ul li a {
+                padding: 5px 0px;
+                font-size: 10px; }  
+        }
